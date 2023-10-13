@@ -50,7 +50,7 @@
 
 .services-list {
     border: 2px solid #e8ca89;
-    margin: 20px 0px;
+    margin: 20px 10px;
     font-family: 'Quattrocento', serif;
 }
 
@@ -63,9 +63,9 @@
 }
 
 .services-list li:not(:first-child) {
-    border-top: 1px solid white;
-    width: 100%;
-    max-width: 500px;
+    /* border-top: 1px solid white; */
+    /* width: 100%; */
+    /* max-width: 500px; */
 }
 
 .female-cuts {

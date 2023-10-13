@@ -185,7 +185,7 @@
 
 .x-button {
     position: absolute;
-    font-family: 'Thasadith', sans-serif !important;
+    /* font-family: 'Thasadith', sans-serif !important; */
     /* font-family: 'Courier New', Courier, monospace; */
     /* background-color: #c6133e; */
     background-color: #c6133e;
