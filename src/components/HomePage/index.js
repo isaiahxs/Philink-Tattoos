@@ -1,4 +1,5 @@
 import Navigation from '../Navigation';
+import Hero from '../Hero';
 import Footer from '../Footer';
 import './HomePage.css'
 
@@ -7,7 +8,7 @@ export default function HomePage() {
         <div>
             <Navigation />
 
-            {/* <Hero /> */}
+            <Hero />
 
             {/* <CombinedMenu /> */}
 

@@ -62,7 +62,6 @@
 .footer-section li {}
 
 .footer-heading {
-    /* font-family: 'Vollkorn SC', serif; */
     font-size: 1.9rem;
     margin-bottom: 5px;
     text-align: center;
@@ -88,7 +87,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* font-family: 'Inknut Antiqua', serif; */
+    font-family: 'Quattrocento', serif;
 }
 
 .footer-icon {
@@ -141,6 +140,8 @@
     color: white;
     margin-left: 5px;
     font-size: 1.3rem;
+    font-family: 'Quattrocento', serif;
+
 }
 
 .isaiah:hover {
