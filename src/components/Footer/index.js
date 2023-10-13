@@ -1,19 +1,13 @@
 import { useLanguage } from '../../LanguageContext';
 import { englishContent, spanishContent } from './content';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/icons/healthy-brain.png';
+import logo from '../../assets/icons/tattoo-machine.png';
 // import map_pin from '../../assets/icons/map-pin.svg';
 // import phone from '../../assets/icons/phone-icon.svg';
 // import email from '../../assets/icons/mail-icon.svg';
 // import facebook from '../../assets/icons/facebook-logo.svg';
 import './Footer.css';
 
-
-{/* <li>
-                <button className='nav-button' onClick={() => scrollToSection('services')}>
-                    {content.services}
-                </button>
-            </li> */}
 export default function Footer() {
     const { currentLanguage, setCurrentLanguage } = useLanguage();
     const content = currentLanguage === 'english' ? englishContent : spanishContent;
@@ -32,14 +26,14 @@ export default function Footer() {
             <div className='footer-section'>
                 <section className='logo-section'>
                     {/* <Link to='/'> */}
-                    <img src={logo} className='big-logo' alt="Big Sin Fronteras Logo" onClick={() => scrollToTop()} />
+                    <img src={logo} className='big-logo' alt="Big Logo" onClick={() => scrollToTop()} />
                     {/* </Link> */}
                 </section>
 
                 <section className='second-footer-section'>
                     <ul className='footer-options-container'>
                         <li className='footer-heading'>
-                            Clarity Companions
+                            Philink Tattoos
                         </li>
                         <div className='footer-options'>
                             <li>

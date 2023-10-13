@@ -1,7 +1,19 @@
+import Navigation from '../Navigation';
+import Footer from '../Footer';
+import './HomePage.css'
+
 export default function HomePage() {
     return (
         <div>
-            <h1>Home Page</h1>
+            <Navigation />
+
+            {/* <Hero /> */}
+
+            {/* <CombinedMenu /> */}
+
+            {/* <Reviews /> */}
+
+            <Footer />
         </div>
     )
 }

@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../../LanguageContext';
 import { englishContent, spanishContent } from './content';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/icons/healthy-brain.png';
-import hamburger from '../../assets/icons/white-hamburger.png';
+import logo from '../../assets/icons/tattoo-machine.png';
+import hamburger from '../../assets/icons/hamburger-menu.svg';
 import './Navigation.css'
 
 export default function Navigation() {
@@ -100,11 +100,11 @@ export default function Navigation() {
         <nav className='nav-bar'>
             <div className='nav-options'>
                 <div className='nav-logo-container'>
-                    <img src={logo} className='small-logo' alt="Clarity Companions Logo" onClick={() => scrollToTop()} />
+                    <img src={logo} className='small-logo' alt="Logo" onClick={() => scrollToTop()} />
                 </div>
 
                 <div className='nav-name'>
-                    Clarity Companions
+                    Philink Tattoos
                 </div>
 
                 <div className='nav-logo-container'>
@@ -175,7 +175,7 @@ export default function Navigation() {
                         </div> */}
 
                         <div className='nav-logo-container'>
-                            <img src={logo} className='big-logo panel-logo' alt="Clarity Companions" />
+                            <img src={logo} className='big-logo panel-logo' alt="Big Logo" />
                         </div>
                     </div>
                 </div>
