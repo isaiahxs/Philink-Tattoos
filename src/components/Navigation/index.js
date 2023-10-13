@@ -104,7 +104,7 @@ export default function Navigation() {
                 </div>
 
                 <div className='nav-name'>
-                    Philink Tattoos
+                    {content.name}
                 </div>
 
                 <div className='nav-logo-container'>
