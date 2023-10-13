@@ -36,7 +36,7 @@
 .panel-button {
     width: 195px;
     /* font-size: 1.0rem !important; */
-    padding: 0px 10px;
+    /* padding: 10px 20px !important; */
 }
 
 .panel-language-button {
@@ -83,10 +83,14 @@
     align-items: center;
     background: none;
     color: white;
-    border: none;
-    border: 2px solid white;
-    font-size: 1.1rem;
-    padding: 8px 10px;
+    border: 2px solid #cea95b;
+    /* border: 2px solid white; */
+    /* font-size: 1.1rem; */
+    /* padding: 10px 15px; */
+}
+
+.nav-button-text {
+    font-size: 1.3rem;
 }
 
 .nav-button.active {
@@ -97,7 +101,7 @@
 }
 
 .nav-button:hover {
-    background-color: white;
+    /* background-color: white; */
     /* background-color: #ffc800; */
     color: #222222;
     font-weight: bold;

@@ -124,7 +124,7 @@ export default function Navigation() {
                             <a href="https://www.isaiahxs.com/" target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div>
-                                        <p className='footer-icon-description'>
+                                        <p className='nav-button-text'>
                                             Portfolio
                                         </p>
                                     </div>
@@ -136,7 +136,7 @@ export default function Navigation() {
                             <a href='https://www.linkedin.com/in/isaiahxs/' target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div>
-                                        <p className='footer-icon-description'>
+                                        <p className='nav-button-text'>
                                             LinkedIn
                                         </p>
                                     </div>
@@ -148,7 +148,7 @@ export default function Navigation() {
                             <a href='https://github.com/isaiahxs' target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div >
-                                        <p className='footer-icon-description'>
+                                        <p className='nav-button-text'>
                                             GitHub
                                         </p>
                                     </div>
@@ -160,7 +160,7 @@ export default function Navigation() {
                             <a href='https://wellfound.com/u/isaiahxs' target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div >
-                                        <p className='footer-icon-description'>
+                                        <p className='nav-button-text'>
                                             Wellfound
                                         </p>
                                     </div>
