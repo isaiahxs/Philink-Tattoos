@@ -162,6 +162,11 @@
     margin-bottom: 5px;
 }
 
+.view-gallery-hero {
+    margin-bottom: 10px;
+}
+
+.view-gallery-hero,
 .view-services-hero,
 .view-reviews-hero,
 .leave-review-hero {

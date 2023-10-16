@@ -85,7 +85,7 @@ export default function HomePage() {
 
             <Hero />
 
-            <div ref={galleryRef} className='body-fade-in'>
+            <div ref={galleryRef} className='body-fade-in' id='gallery'>
                 <Gallery />
             </div>
             <div ref={servicesRef} className='body-fade-in' id='services'>

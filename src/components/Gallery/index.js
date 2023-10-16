@@ -1,3 +1,6 @@
+import { useLanguage } from '../../LanguageContext';
+import { englishContent, spanishContent } from './content';
+
 // strip 1
 import clock from '../../assets/images/clock-tat.jpeg';
 import flag from '../../assets/images/flag-tat.jpeg';
@@ -16,11 +19,14 @@ import name from '../../assets/images/name.png';
 import './Gallery.css';
 
 export default function Gallery() {
+    const { currentLanguage, setCurrentLanguage } = useLanguage();
+    const content = currentLanguage === 'english' ? englishContent : spanishContent;
+
     return (
         <div className='gallery-section'>
-            <h2 className='gallery-header'>Gallery</h2>
+            <h2 className='gallery-header'>{content.header}</h2>
             <h3 className='gallery-subheading'>
-                View more on
+                {content.subheader}
                 <a className='view-more-ig' href='https://www.instagram.com/philink_tattoos/' target='_blank' rel='noopener noreferrer'>
                     instagram
                 </a>

@@ -71,8 +71,12 @@ export default function GBHero() {
                     {/*Walk-ins are welcome, but appointments are preferred. We look forward to seeing you soon!*/}
 
                     <div className='hero-buttons-container fade2'>
+                        <button className='view-gallery-hero' onClick={() => scrollToSection('gallery')}>
+                            {content.viewWork}
+                        </button>
+
                         <button className='view-services-hero' onClick={() => scrollToSection('services')}>
-                            {content.viewServices}
+                            {content.viewPrices}
                         </button>
 
                         {/* <button className='view-reviews-hero' onClick={() => scrollToSection('reviews')}>
