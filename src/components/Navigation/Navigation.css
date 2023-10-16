@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 15;
     /* background-color: black; */
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #f0bd50;
     /* backdrop-filter: blur(20px); */
     box-shadow: 0px 0px 5px 0px #000000;
 }
@@ -28,7 +28,7 @@
 
 .nav-name {
     font-size: 1.9rem;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .panel-language-button {
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .nav-bar.hidden {
@@ -81,10 +81,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: none;
-    color: white;
-    border: 2px solid #cea95b;
+    /* background: none; */
+    /* color: white; */
+
+    /* border: 2px solid #cea95b; */
     /* border: 2px solid white; */
+
     /* font-size: 1.1rem; */
     /* padding: 10px 15px; */
 }
@@ -103,8 +105,8 @@
 .nav-button:hover {
     /* background-color: white; */
     /* background-color: #ffc800; */
-    color: #222222;
-    font-weight: bold;
+    /* color: #222222; */
+    /* font-weight: bold; */
 }
 
 @media screen and (max-width: 495px) {
@@ -175,7 +177,7 @@
     transform: translateX(0);
     /* background-color: rgba(0, 0, 0, 0.8); */
     /* backdrop-filter: blur(20px); */
-    background-color: rgba(0, 0, 0, 0.9);
+    /* background-color: rgba(0, 0, 0, 0.8); */
     box-shadow: 0 0 15px 0 #000;
 }
 
@@ -185,7 +187,7 @@
 
 .x-button {
     position: absolute;
-    font-family: 'Thasadith', sans-serif !important;
+    /* font-family: 'Thasadith', sans-serif !important; */
     /* font-family: 'Courier New', Courier, monospace; */
     /* background-color: #c6133e; */
     background-color: #c6133e;
@@ -205,6 +207,7 @@
 .x-button:hover {
     background: none;
     border: 2px solid #c6133e;
+    color: white;
 }
 
 

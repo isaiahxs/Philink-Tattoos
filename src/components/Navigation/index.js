@@ -2,8 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../../LanguageContext';
 import { englishContent, spanishContent } from './content';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/icons/tattoo-machine.png';
-import hamburger from '../../assets/icons/hamburger-menu.svg';
+import logo from '../../assets/icons/black-icon.png';
+import gold_logo from '../../assets/icons/gold-icon.png';
+import hamburger from '../../assets/icons/hamburger.png';
 import './Navigation.css'
 
 export default function Navigation() {
@@ -100,16 +101,16 @@ export default function Navigation() {
         <nav className='nav-bar'>
             <div className='nav-options'>
                 <div className='nav-logo-container'>
-                    <img src={logo} className='small-logo' alt="Logo" onClick={() => scrollToTop()} />
+                    <img src={logo} className='small-logo fade-in' alt="Logo" onClick={() => scrollToTop()} />
                 </div>
 
-                <div className='nav-name'>
-                    Philink Tattoos
+                <div className='nav-name fade-in'>
+                    {content.name}
                 </div>
 
                 <div className='nav-logo-container'>
                     {/* <button className='hamburger-menu' onClick={toggleNavOpen}> */}
-                    <img src={hamburger} className='small-logo hamburger-menu' alt='Hamburger Menu' onClick={toggleNavOpen} />
+                    <img src={hamburger} className='small-logo hamburger-menu fade-in' alt='Hamburger Menu' onClick={toggleNavOpen} />
                     {/* </button> */}
                 </div>
 
@@ -121,11 +122,17 @@ export default function Navigation() {
 
                     <div className='panel-buttons'>
                         <div>
-                            <a href="https://www.isaiahxs.com/" target='_blank' rel='noopener noreferrer'>
+                            <button className='language-toggle-button panel-language-button' onClick={toggleLanguage}>
+                                {currentLanguage === 'english' ? 'Español' : 'English'}
+                            </button>
+                        </div>
+
+                        <div>
+                            <a href="https://www.instagram.com/philink_tattoos/" target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div>
                                         <p className='nav-button-text'>
-                                            Portfolio
+                                            Instagram
                                         </p>
                                     </div>
                                 </button>
@@ -133,11 +140,11 @@ export default function Navigation() {
                         </div>
 
                         <div>
-                            <a href='https://www.linkedin.com/in/isaiahxs/' target='_blank' rel='noopener noreferrer'>
+                            <a href='https://booksy.com/en-us/432293_tattoos-piercings-and-supplies_tattoo-shop_22547_glen-burnie' target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div>
                                         <p className='nav-button-text'>
-                                            LinkedIn
+                                            Booksy
                                         </p>
                                     </div>
                                 </button>
@@ -145,6 +152,18 @@ export default function Navigation() {
                         </div>
 
                         <div>
+                            <a href="https://www.instagram.com/philink_tattoos/" target='_blank' rel='noopener noreferrer'>
+                                <button className='nav-button panel-button'>
+                                    <div>
+                                        <p className='nav-button-text'>
+                                            Facebook
+                                        </p>
+                                    </div>
+                                </button>
+                            </a>
+                        </div>
+
+                        {/* <div>
                             <a href='https://github.com/isaiahxs' target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div >
@@ -154,9 +173,9 @@ export default function Navigation() {
                                     </div>
                                 </button>
                             </a>
-                        </div>
+                        </div> */}
 
-                        <div>
+                        {/* <div>
                             <a href='https://wellfound.com/u/isaiahxs' target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div >
@@ -166,16 +185,22 @@ export default function Navigation() {
                                     </div>
                                 </button>
                             </a>
-                        </div>
-
-                        {/* <div>
-                            <button className='language-toggle-button panel-language-button' onClick={toggleLanguage}>
-                                {currentLanguage === 'english' ? 'Español' : 'English'}
-                            </button>
                         </div> */}
 
+                        <div>
+                            <a href="tel:+7866307547" target='_blank' rel='noopener noreferrer'>
+                                <button className='nav-button panel-button'>
+                                    <div>
+                                        <p className='nav-button-text'>
+                                            {content.contact}
+                                        </p>
+                                    </div>
+                                </button>
+                            </a>
+                        </div>
+
                         <div className='nav-logo-container'>
-                            <img src={logo} className='big-logo panel-logo' alt="Big Logo" />
+                            <img src={gold_logo} className='big-logo panel-logo' alt="Big Logo" />
                         </div>
                     </div>
                 </div>
