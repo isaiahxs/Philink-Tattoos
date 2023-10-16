@@ -88,6 +88,8 @@
     align-items: center;
     text-align: center;
     font-family: 'Quattrocento', serif;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .footer-icon {
@@ -125,6 +127,7 @@
     color: white;
     padding-bottom: 40px;
     /* font-size: 1.0rem; */
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -167,8 +170,8 @@
 
     .footer-options-container {
         width: 360px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         margin-right: 0px;
     }
 
