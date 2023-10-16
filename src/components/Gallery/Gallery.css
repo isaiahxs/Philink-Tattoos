@@ -1,9 +1,29 @@
+.gallery-header {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    font-size: 1.7rem;
+}
+
+.gallery-subheading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
 section.gallery-1 .slider,
 section.gallery-2 .slider {
     margin: auto;
     overflow: hidden;
     position: relative;
     width: 100%;
+}
+
+.gallery-1,
+.gallery-2 {
+    border-top: 2px solid #f0bd50;
+    border-bottom: 2px solid #f0bd50;
 }
 
 .slider {

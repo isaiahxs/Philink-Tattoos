@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../../LanguageContext';
 import { englishContent, spanishContent } from './content';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/icons/tattoo-machine.png';
+import logo from '../../assets/icons/black-icon.png';
+import gold_logo from '../../assets/icons/gold-icon.png';
 import hamburger from '../../assets/icons/hamburger.png';
 import './Navigation.css'
 
@@ -100,16 +101,16 @@ export default function Navigation() {
         <nav className='nav-bar'>
             <div className='nav-options'>
                 <div className='nav-logo-container'>
-                    <img src={logo} className='small-logo' alt="Logo" onClick={() => scrollToTop()} />
+                    <img src={logo} className='small-logo fade-in' alt="Logo" onClick={() => scrollToTop()} />
                 </div>
 
-                <div className='nav-name'>
+                <div className='nav-name fade-in'>
                     {content.name}
                 </div>
 
                 <div className='nav-logo-container'>
                     {/* <button className='hamburger-menu' onClick={toggleNavOpen}> */}
-                    <img src={hamburger} className='small-logo hamburger-menu' alt='Hamburger Menu' onClick={toggleNavOpen} />
+                    <img src={hamburger} className='small-logo hamburger-menu fade-in' alt='Hamburger Menu' onClick={toggleNavOpen} />
                     {/* </button> */}
                 </div>
 
@@ -199,7 +200,7 @@ export default function Navigation() {
                         </div>
 
                         <div className='nav-logo-container'>
-                            <img src={logo} className='big-logo panel-logo' alt="Big Logo" />
+                            <img src={gold_logo} className='big-logo panel-logo' alt="Big Logo" />
                         </div>
                     </div>
                 </div>
