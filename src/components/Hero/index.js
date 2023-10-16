@@ -31,7 +31,7 @@ export default function GBHero() {
 
     const scrollToSection = (sectionId) => {
         const sectionElement = document.getElementById(sectionId);
-        const yOffset = -60;
+        const yOffset = -100;
         const topOffset = sectionElement.getBoundingClientRect().top + window.scrollY + yOffset;
         window.scrollTo({ top: topOffset, behavior: 'smooth' });
     };
@@ -45,7 +45,7 @@ export default function GBHero() {
                     </button> */}
                     <h1 className='title fade1'>{content.title}</h1>
                     <h2 className='location fade1'>{content.location}</h2>
-                    <button className='language-toggle-button fade1' onClick={toggleLanguage}>
+                    <button className='hero-language-toggle-button fade1' onClick={toggleLanguage}>
                         {currentLanguage === 'english' ? 'Español' : 'English'}
                     </button>
                     {/* <h3 className='description'>Experience the beauty and elegance of our salon.</h3> */}
@@ -75,14 +75,14 @@ export default function GBHero() {
                             {content.viewServices}
                         </button>
 
-                        <button className='view-reviews-hero' onClick={() => scrollToSection('reviews')}>
+                        {/* <button className='view-reviews-hero' onClick={() => scrollToSection('reviews')}>
                             {content.viewReviews}
-                        </button>
+                        </button> */}
 
-                        <a href="https://www.google.com/search?q=Isaula%27s+Beauty+Salon+LLC&sca_esv=560578390&ei=IBrsZPm8Ja-u5NoPyOmv-Aw&ved=0ahUKEwj5zLCNuv6AAxUvF1kFHcj0C88Q4dUDCBA&uact=5&oq=Isaula%27s+Beauty+Salon+LLC&gs_lp=Egxnd3Mtd2l6LXNlcnAiGUlzYXVsYSdzIEJlYXV0eSBTYWxvbiBMTEMyCxAuGIAEGMcBGK8BMgIQJjIIEAAYigUYhgMyCBAAGIoFGIYDMggQABiKBRiGAzIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQFI32FQpgxYuV9wAngAkAEAmAFMoAHaBqoBAjEzuAEDyAEA-AEBwgIOEC4YgAQYxwEYrwEYsAPCAgsQABiKBRiGAxiwA8ICBRAAGKIEwgIKECEYoAEYwwQYCsICDRAuGA0YgAQYxwEYrwHCAhwQLhgNGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYFhgeGAriAwQYASBBiAYBkAYDugYGCAEQARgU&sclient=gws-wiz-serp#lrd=0x89b7fcdd79a6aeed:0xa55be85257c1581f,3,,,," target='_blank' rel='noopener noreferrer'>
+                        {/* <a href="https://www.google.com/search?q=Isaula%27s+Beauty+Salon+LLC&sca_esv=560578390&ei=IBrsZPm8Ja-u5NoPyOmv-Aw&ved=0ahUKEwj5zLCNuv6AAxUvF1kFHcj0C88Q4dUDCBA&uact=5&oq=Isaula%27s+Beauty+Salon+LLC&gs_lp=Egxnd3Mtd2l6LXNlcnAiGUlzYXVsYSdzIEJlYXV0eSBTYWxvbiBMTEMyCxAuGIAEGMcBGK8BMgIQJjIIEAAYigUYhgMyCBAAGIoFGIYDMggQABiKBRiGAzIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQFI32FQpgxYuV9wAngAkAEAmAFMoAHaBqoBAjEzuAEDyAEA-AEBwgIOEC4YgAQYxwEYrwEYsAPCAgsQABiKBRiGAxiwA8ICBRAAGKIEwgIKECEYoAEYwwQYCsICDRAuGA0YgAQYxwEYrwHCAhwQLhgNGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYFhgeGAriAwQYASBBiAYBkAYDugYGCAEQARgU&sclient=gws-wiz-serp#lrd=0x89b7fcdd79a6aeed:0xa55be85257c1581f,3,,,," target='_blank' rel='noopener noreferrer'>
                             <button className='leave-review-hero'>{content.leaveReview}
                             </button>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
 
@@ -107,23 +107,23 @@ export default function GBHero() {
                                     </div>
                                 </a>
 
-                                <a href='tel:+14107606422'>
+                                <a href='tel:+7866307547'>
                                     <div className='footer-icon-container'>
                                         <img src={phone} className='footer-icon' alt='Phone Icon' />
                                         <p className='footer-icon-description'>
-                                            (410) 760-6422
+                                            (786) 630-7547
                                         </p>
                                     </div>
                                 </a>
 
-                                <a href="https://www.facebook.com/IsaulasBeautySalonII" target='_blank' rel='noopener noreferrer'>
+                                {/* <a href="https://www.facebook.com/IsaulasBeautySalonII" target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
                                         <img src={facebook} className='footer-icon' alt='Facebook Logo' />
                                         <p className='footer-icon-description'>Facebook</p>
                                     </div>
-                                </a>
+                                </a> */}
 
-                                <a href='https://www.instagram.com/isaulasbs/' target='_blank' rel='noopener noreferrer'>
+                                <a href='https://www.instagram.com/philink_tattoos/' target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
                                         <img src={instagram} className='footer-icon' alt='Instagram Logo' />
                                         <p className='footer-icon-description'>Instagram</p>

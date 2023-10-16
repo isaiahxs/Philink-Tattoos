@@ -19,7 +19,12 @@ export default function Gallery() {
     return (
         <div className='gallery-section'>
             <h2 className='gallery-header'>Gallery</h2>
-            <h3 className='gallery-subheading'>View more on instagram</h3>
+            <h3 className='gallery-subheading'>
+                View more on
+                <a className='view-more-ig' href='https://www.instagram.com/philink_tattoos/' target='_blank' rel='noopener noreferrer'>
+                    instagram
+                </a>
+            </h3>
 
             <section className='gallery-1'>
                 <div className='slider'>

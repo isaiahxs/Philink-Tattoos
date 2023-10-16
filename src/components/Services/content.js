@@ -7,8 +7,8 @@ export const englishContent = {
         "Black Work - Starting at $150 per hour",
         "Matching Tattoos - Varies (approx. 25 minutes)",
         "Colorful Tattoos - $200 per hour",
-        "Tattoo Sleeve - Varies",
-        "Concept Design Consultation - $150 (approx. 8 hours)"
+        "Tattoo Sleeve - Varies - Please have reference for the concept of your design or photos of the exact placement - $150 (approx. 8 hours)",
+        ""
     ],
     piercingHeader: "Piercings",
     piercingDescription: "Discover my piercing services and pricing:",

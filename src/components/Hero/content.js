@@ -14,12 +14,12 @@ export const englishContent = {
 export const spanishContent = {
     title: "Philink Tatuajes",
     location: 'Glen Burnie, Maryland',
-    description: "Con más de 10 años de experiencia en el arte del tatuaje, yo ofresco una amplia gama de servicios de tatuaje y piercing para dar vida a tus ideas.",
-    description2: 'Estoy dedicado a brindar experiencias de tatuaje y piercing de primera calidad.',
+    description: "Con más de 10 años de experiencia en el arte del tatuaje, ofrezco una amplia gama de servicios de tatuajes y perforaciones para dar vida a sus ideas.",
+    description2: 'Estoy dedicado a brindar experiencias de tatuaje y perforaciones de primera calidad.',
     hours: 'Domingo - Jueves: 11:00am a 9:00pm',
     hoursSat: 'Viernes - Sábado: 11:00am a 11:00pm',
     viewServices: 'Ver Mis Servicios',
     viewReviews: 'Ver Opiniones de Clientes',
     leaveReview: '¡Comparte Tu Experiencia!',
-    contactHeading: 'Contáctame'
+    contactHeading: 'Contácteme'
 };

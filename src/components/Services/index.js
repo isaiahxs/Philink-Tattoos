@@ -10,7 +10,7 @@ export default function Services() {
         <div className="tattoo-piercing-section">
             <div className="header-container">
                 <h2 className="header">{content.tattooHeader}</h2>
-                <p className="description services-description">{content.tattooDescription}</p>
+                {/* <p className="description services-description">{content.tattooDescription}</p> */}
                 <ul className="services-list">
                     {content.tattooServices.map((service, index) => (
                         <li key={index}>{service}</li>
@@ -20,7 +20,7 @@ export default function Services() {
 
             <div className="header-container">
                 <h2 className="header">{content.piercingHeader}</h2>
-                <p className="description services-description">{content.piercingDescription}</p>
+                {/* <p className="description services-description">{content.piercingDescription}</p> */}
                 <ul className="services-list">
                     {content.piercingServices.map((service, index) => (
                         <li key={index}>{service}</li>

@@ -46,15 +46,17 @@ export default function Footer() {
                             <li>
                                 <a href="https://www.google.com/maps/place/Sin+Fronteras/@38.9775203,-76.5394309,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7f6ce8f43a82f:0x43022ee12cca4c62!8m2!3d38.9775162!4d-76.536856!16s%2Fg%2F1tpf80bs?entry=ttu" target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
-                                        <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' />
                                         <p className='footer-icon-description'>
-                                            7574 Ritchie Highway, Glen Burnie, 21061
+                                            <span>
+                                                <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' />
+                                                7574 Ritchie Highway, Glen Burnie, 21061
+                                            </span>
                                         </p>
                                     </div>
                                 </a>
                             </li>
                             <li>
-                                <a href='tel:+14102660013'>
+                                <a href='tel:+7866307547'>
                                     <div className='footer-icon-container'>
                                         <img src={phone} className='footer-icon' alt='Phone Icon' />
                                         <p className='footer-icon-description'>
@@ -95,14 +97,14 @@ export default function Footer() {
                                 </a>
                             </li>
 
-                            <li>
+                            {/* <li>
                                 <a href="https://www.facebook.com/sinfronterascafe/?ref=page_internal" target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
                                         <img src={facebook} className='footer-icon' alt='Facebook Logo' />
                                         <p className='footer-icon-description'>Facebook</p>
                                     </div>
                                 </a>
-                            </li>
+                            </li> */}
                         </div>
                     </ul>
                 </section>

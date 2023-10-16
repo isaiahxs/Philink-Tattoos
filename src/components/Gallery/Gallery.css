@@ -12,6 +12,11 @@
     font-weight: lighter;
 }
 
+.view-more-ig {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
 section.gallery-1 .slider,
 section.gallery-2 .slider {
     margin: auto;

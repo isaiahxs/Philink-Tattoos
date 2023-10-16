@@ -122,6 +122,12 @@ export default function Navigation() {
 
                     <div className='panel-buttons'>
                         <div>
+                            <button className='language-toggle-button panel-language-button' onClick={toggleLanguage}>
+                                {currentLanguage === 'english' ? 'Español' : 'English'}
+                            </button>
+                        </div>
+
+                        <div>
                             <a href="https://www.instagram.com/philink_tattoos/" target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div>
@@ -181,18 +187,12 @@ export default function Navigation() {
                             </a>
                         </div> */}
 
-                        {/* <div>
-                            <button className='language-toggle-button panel-language-button' onClick={toggleLanguage}>
-                                {currentLanguage === 'english' ? 'Español' : 'English'}
-                            </button>
-                        </div> */}
-
                         <div>
                             <a href="tel:+7866307547" target='_blank' rel='noopener noreferrer'>
                                 <button className='nav-button panel-button'>
                                     <div>
                                         <p className='nav-button-text'>
-                                            (786)-630-7547
+                                            {content.contact}
                                         </p>
                                     </div>
                                 </button>

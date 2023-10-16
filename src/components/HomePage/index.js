@@ -88,7 +88,7 @@ export default function HomePage() {
             <div ref={galleryRef} className='body-fade-in'>
                 <Gallery />
             </div>
-            <div ref={servicesRef} className='body-fade-in'>
+            <div ref={servicesRef} className='body-fade-in' id='services'>
                 <Services />
             </div>
 
