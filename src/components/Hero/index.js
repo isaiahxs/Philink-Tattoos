@@ -43,14 +43,14 @@ export default function GBHero() {
                     {/* <button className='language-toggle-button' onClick={toggleLanguage}>
                         {currentLanguage === 'english' ? 'Español' : 'English'}
                     </button> */}
-                    <h1 className='title fade-in'>{content.title}</h1>
-                    <h2 className='location fade-in'>{content.location}</h2>
-                    <button className='language-toggle-button fade-in' onClick={toggleLanguage}>
+                    <h1 className='title fade1'>{content.title}</h1>
+                    <h2 className='location fade1'>{content.location}</h2>
+                    <button className='language-toggle-button fade1' onClick={toggleLanguage}>
                         {currentLanguage === 'english' ? 'Español' : 'English'}
                     </button>
                     {/* <h3 className='description'>Experience the beauty and elegance of our salon.</h3> */}
 
-                    <div className='hero-descriptions-container fade-in'>
+                    <div className='hero-descriptions-container fade2'>
                         <h3 className='description'>
                             {content.description}
                         </h3>
@@ -70,7 +70,7 @@ export default function GBHero() {
 
                     {/*Walk-ins are welcome, but appointments are preferred. We look forward to seeing you soon!*/}
 
-                    <div className='hero-buttons-container fade-in'>
+                    <div className='hero-buttons-container fade2'>
                         <button className='view-services-hero' onClick={() => scrollToSection('services')}>
                             {content.viewServices}
                         </button>
@@ -86,7 +86,7 @@ export default function GBHero() {
                     </div>
                 </div>
 
-                <div className='hero-image-and-contact fade-in'>
+                <div className='hero-image-and-contact fade3'>
                     <div className='hero-image-container'>
                         <img src={philip} className='hero-image' alt="Isaula's Salon" />
                         <div className="gradient-overlay">
