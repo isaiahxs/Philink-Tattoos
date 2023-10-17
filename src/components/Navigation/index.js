@@ -123,7 +123,9 @@ export default function Navigation() {
                     <div className='panel-buttons'>
                         <div>
                             <button className='language-toggle-button panel-language-button' onClick={toggleLanguage}>
-                                {currentLanguage === 'english' ? 'Español' : 'English'}
+                                <p className='nav-button-text'>
+                                    {currentLanguage === 'english' ? 'Español' : 'English'}
+                                </p>
                             </button>
                         </div>
 
